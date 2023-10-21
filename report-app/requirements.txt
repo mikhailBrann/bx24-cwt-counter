@@ -1,0 +1,6 @@
+fast-bitrix24
+python-dotenv
+google-api-python-client
+oauth2client
+gspread
+schedule

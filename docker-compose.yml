@@ -1,0 +1,23 @@
+version: '3.7'
+services:
+  orders-app:
+    container_name: report-app
+    depends_on:
+      - redis
+    build:
+      context: report-app
+      dockerfile: ./Dockerfile
+#    command: sh ./boot.sh
+    env_file:
+      - .env
+    ports:
+      - 8000:8000
+    networks:
+      - app-network
+
+  volumes:
+    static_volume:
+
+  networks:
+    app-network:
+      driver: bridge
