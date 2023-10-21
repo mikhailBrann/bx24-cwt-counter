@@ -17,9 +17,9 @@ def getReportInCurrentMonth():
         'MONTH': 'Август',
         'USERS': [
             {
-                'ID': 180,
-                'NAME': 'Михаил'
-                'SURNAME': 'Бранн'
+                'ID': 321,
+                'NAME': 'Иван'
+                'SURNAME': 'Иванов'
                 'REPORTS_DAYS': [
                     {
                         'DATE': dd-mm-yyyy,
